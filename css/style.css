@@ -6,6 +6,51 @@
     --text-dark: #1f2933;
 }
 
+.book-image-box {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.book-image-box img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.book-card {
+    min-height: 420px;
+}
+
+.book-cover {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.book-card:hover .book-cover {
+    transform: scale(1.05);
+}
+
+.editorial-card {
+    border-radius: 14px;
+    background: #ffffff;
+}
+
+.email-link {
+    color: var(--secondary);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
 /* GLOBAL */
 body {
     font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
